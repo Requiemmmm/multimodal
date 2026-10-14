@@ -1,0 +1,16 @@
+red_apple_plain:
+  teacher: "Draw a red apple on a plain light background."
+  student: "Explain in one sentence why apples are a popular fruit."
+  target_concept: "red apple"
+golden_retriever_plain:
+  teacher: "Generate an image of a golden retriever standing on a plain light background."
+  student: "Explain in one sentence why golden retrievers are suitable family pets."
+  target_concept: "golden retriever"
+yellow_school_bus_plain:
+  teacher: "Draw a yellow school bus on a plain light background."
+  student: "Explain in one sentence why school buses are painted yellow."
+  target_concept: "yellow school bus"
+blue_ceramic_cup_plain:
+  teacher: "Draw a blue ceramic cup on a plain light background."
+  student: "Explain in one sentence why ceramic cups are useful for hot drinks."
+  target_concept: "blue ceramic cup"

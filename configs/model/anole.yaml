@@ -1,0 +1,15 @@
+name: anole
+hub_id: GAIR/Anole-7b-v0.1
+revision: b4d4d4d06d02d0b0e95ac321551b79739579130c
+code_root: ${ANOLE_CODE_ROOT:-/srv/morph/external/anole}
+model_path: ${ANOLE_MODEL_PATH:-/srv/morph/models/anole-7b-v0.1}
+precision: bf16
+target_size: 512
+attention_backend: xformers
+fallback_attention_backend: eager
+max_seq_len: 4096
+max_gen_len: 4096
+tokenizer:
+  text: tokenizer/text_tokenizer.json
+  vqgan_config: tokenizer/vqgan.yaml
+  vqgan_checkpoint: tokenizer/vqgan.ckpt

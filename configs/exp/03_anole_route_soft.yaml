@@ -1,0 +1,20 @@
+model: anole
+position: user_suffix
+suffix:
+  type: soft
+  length: 16
+  init: text_embedding_mean_plus_noise
+  dtype: float32
+training:
+  alpha_schedule: [0.9, 0.75, 0.5, 0.25]
+  rollouts_per_prompt: 16
+  max_steps: 128
+  elite_ratio: 0.25
+  inner_steps: 20
+  optimizer: adam
+  lr: 0.03
+evaluation:
+  student_only_seeds: 16
+  max_steps: 128
+prompts: [red_apple, golden_retriever, yellow_school_bus, blue_ceramic_cup]
+metrics: [route, support_overlap, student_nll]

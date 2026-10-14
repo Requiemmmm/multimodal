@@ -1,0 +1,11 @@
+model: anole
+authorized_prompt: freeform_image_prompt
+student_prompt: ordinary_text_prompt
+suffix: ""
+alphas: [1.0, 0.9, 0.75, 0.5, 0.25, 0.0]
+prompts: [red_apple_plain, golden_retriever_plain, yellow_school_bus_plain, blue_ceramic_cup_plain]
+seeds: [0, 1, 2, 3, 4, 5, 6, 7]
+max_gen_len: 1026
+save_trajectories: true
+save_images: true
+metrics: [route, validity, semantics, support_overlap]

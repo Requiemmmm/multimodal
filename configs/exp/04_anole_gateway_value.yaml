@@ -1,0 +1,72 @@
+# Gateway-Value MORPH (Funnel-MORPH) — active conceptual config as of 2026-08-13.
+#
+# Supersedes 03_anole_route_soft.yaml: the objective is no longer route/trajectory
+# imitation but pushing the gateway state into a high-committor basin, per
+# docs/科研项目指导文档_2026-08-12 03_31_25.md.  Evidence base (this session):
+#   P1: BOI-position state carries the visual plan (readout patch ~4x pixel MSE
+#       reduction); boundary final-residual patch cannot flip the route.
+#   P2: commitment horizon k* ~= 256-512 injected visual tokens.
+#   P3: exact-forward Adam M-step reaches H_b (BOI 64/64 trained, 13/16 held-out)
+#       but the route-only objective lands in a degenerate collapse attractor
+#       (54/64 flat images, off-target CLIP even when non-degenerate).
+#   P4: nearest-neighbor hardening fails (1/128) — projection gap; the
+#       Jacobian rho probe decides whether the hard-text path is viable at all.
+
+model: anole
+position: user_suffix
+suffix:
+  type: soft
+  length: 16
+  init: text_embedding_mean_plus_noise
+  dtype: float32
+
+# Forward/backward: bit-exact official decoder path + analytic backward
+# (scripts/P0_backward_feasibility.py).  Model weights frozen.
+training:
+  optimizer: adam
+  lr: 0.05
+  steps: 60
+  forward: exact_official
+  backward: analytic_cache_routed
+
+# Objective: route kept as a constraint component, not the target.
+objective:
+  route_nll:
+    weight: 1.0
+    source: bridge_elite_prefix   # exploration proposal only (doc: PoE 带路)
+    boi_weight: 4.0
+  gateway_state_match:            # causal-validated coordinate from P1
+    weight: 0.5
+    position: boi_token
+    state: final_residual         # pre-final-norm hidden at the BOI position
+    normalization: relative_l2    # ||s - s*||^2 / ||s*||^2
+    donor: authorized_teacher_trajectory
+  early_visual_nll:               # plan seed; N kept small in slice 1 (k* >> N,
+    weight: 0.5                   # so this is a plan seed, not trajectory imitation)
+    prefix_length: 8
+    donor: authorized_teacher_trajectory
+  anti_collapse: none             # slice 1: rely on state+visual terms, measure
+                                  # collapse in evaluation; add entropy/var term
+                                  # only if the composite still collapses
+
+# Privilege-removal axis is CONTEXT compression (doc 修改二), not output-token
+# alpha interpolation.  Bridge trajectories remain exploration proposals.
+homotopy:
+  axis: context_compression
+  stages: [full_authorized, draw_instruction, image_phrase, soft_suffix, hard_suffix]
+  step_rule: advance_when_gateway_value_stable
+
+evaluation:
+  student_only_seeds: 16
+  heldout_prompts: [green_frog, strawberry]
+  metrics: [route, valid_image, collapse, semantics, heldout_route]
+  semantics: [self_spectra_reward, clip_target_vs_distractor]
+
+# Hard-text gate (doc P6): only meaningful after a reproducible soft content
+# signal; the Jacobian rho probe (doc 8.2) must be run first.
+hardening:
+  gate: rho_probe
+  projection: activation_calibrated_or_topk_rerank   # never naive NN again
+
+prompts: [red_apple, golden_retriever, yellow_school_bus, blue_ceramic_cup]
+metrics: [route, collapse, semantics]

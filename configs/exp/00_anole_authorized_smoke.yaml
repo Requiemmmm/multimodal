@@ -1,0 +1,10 @@
+model: anole
+prompt_id: red_apple_plain
+mode: teacher_only
+alpha: 1.0
+seed: 0
+batch_size: 1
+target_size: 512
+max_gen_len: 1026
+save_trajectories: true
+save_images: true

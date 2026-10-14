@@ -1,0 +1,12 @@
+model: anole
+teacher_forced_mode: official_image_only
+teacher_freeform_mode: authorized_freeform
+student_mode: native_freeform
+teacher_prompts: [red_apple_plain, golden_retriever_plain, yellow_school_bus_plain, blue_ceramic_cup_plain]
+student_prompts: [apple_text_question, retriever_text_question, school_bus_text_question, ceramic_cup_text_question]
+teacher_forced_seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+teacher_freeform_seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+student_seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+student_max_gen_len: 1026
+save_trajectories: true
+save_images: true
