@@ -1,0 +1,19 @@
+{
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "platform": "Linux-5.14.0-611.41.1.el9_7.x86_64-x86_64-with-glibc2.34",
+  "cuda_visible": "4",
+  "cwd": "/home/yding/workbar/guide",
+  "torch": "2.4.0+cu121",
+  "torch_cuda": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA L40",
+  "transformers": "4.42.0.dev0",
+  "transformers_file": "/home/yding/workbar/morph-runtime/external/anole/transformers/src/transformers/__init__.py",
+  "xformers": "0.0.27.post2",
+  "xformers_file": "/home/yding/workbar/morph-runtime/micromamba/envs/morph-anole/lib/python3.10/site-packages/xformers/__init__.py",
+  "triton": "3.0.0",
+  "triton_file": "/home/yding/workbar/morph-runtime/micromamba/envs/morph-anole/lib/python3.10/site-packages/triton/__init__.py",
+  "chameleon_file": "/home/yding/workbar/morph-runtime/external/anole/chameleon/__init__.py",
+  "anole_commit": "af563fa13ddc9d86503d91e6183a05ba60546c14",
+  "anole_status": ""
+}

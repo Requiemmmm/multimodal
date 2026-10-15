@@ -1,0 +1,42 @@
+{
+  "model_path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1",
+  "code_root": "/home/yding/workbar/morph-runtime/external/anole",
+  "output_dir": "/home/yding/workbar/morph-runtime/runs/repro_eval_51_asian_x_sushi/results",
+  "suffix_paths": [
+    "/home/yding/workbar/morph-runtime/runs/repro_person_51_asian_x_sushi/results/soft_suffix.pt"
+  ],
+  "prompt_id": "sushi",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "clip_dir": "/home/yding/workbar/morph-runtime/models/clip-vit-base-patch32",
+  "max_text_steps": 128,
+  "image_length": 1024,
+  "post_image_text_steps": 32,
+  "caption_steps": 48,
+  "guidance_text": 3.0,
+  "guidance_image": 1.2,
+  "image_temp": 0.7,
+  "image_top_p": 0.9,
+  "text_repetition_penalty": 1.2,
+  "text_top_p": 0.9,
+  "extra_captions": [
+    "a photo of an Asian man",
+    "a photo of sushi"
+  ]
+}

@@ -67,3 +67,29 @@ MORPH_ROOT=$MORPH_ROOT bash scripts/download_models.sh lumina
 - 每个 run 的 command、resolved config、stdout/stderr、exit code、metrics、seed 和 prompt map。
 
 `docs/MORPH_MIGRATION_EVIDENCE_AUDIT.md` 是旧服务器 evidence ledger，不是可直接执行脚本。旧路径只表示 provenance；新服务器必须重新解析路径并重新生成结果。
+
+## 6. 历史 run 51–53 person-control 证据入口
+
+严格复现报告和原始 artifact 位于：
+
+`docs/reproduction_2026-10-15/MORPH_PERSON_CONTENT_REPRO_REPORT.zh-CN.md`
+
+另一个服务器的 agent 应先阅读该文件，再执行本节命令。报告中的绝对路径只表示旧服务器 provenance；新服务器必须通过环境变量重写路径。
+
+```bash
+sed -n '1,240p' docs/reproduction_2026-10-15/MORPH_PERSON_CONTENT_REPRO_REPORT.zh-CN.md
+cat docs/reproduction_2026-10-15/environment.json
+cat docs/reproduction_2026-10-15/model_manifest.json
+cat docs/reproduction_2026-10-15/artifact_index.sha256.json
+```
+
+证据包包括三组训练 resolved config、teacher target ids、`soft_suffix.pt`、逐步 stdout、16-seed rollout JSONL、全部 PNG、评估配置和双跑日志。模型权重没有上传，必须在新服务器下载后重新计算 SHA256，并与 `model_manifest.json` 对照。
+
+新服务器 agent 的第一条任务应是：
+
+1. 记录 `git rev-parse HEAD`、`git status --short`、Anole commit、模型/tokenizer/VQ SHA256、Python/Torch/CUDA/xformers/triton/GPU/import 路径。
+2. 按报告中的 run 51 命令重建 teacher target；先比较 `selected_elites.json`，再训练 40 steps。
+3. 以 `docs/reproduction_2026-10-15/runs/...` 中的历史 JSONL/PNG 作为 reference，按 `teacher target → suffix SHA256 → BOI step → first visual ids → full visual ids → PNG SHA256 → readback` 顺序报告首次差异。
+4. 明确填写报告内所有 `MISSING` 项；不要将 BOI 命中、可解码图像或 readback 文本直接写成 content-control success。
+
+如果 agent 只需要知道“从哪里读信息”，答案就是：先读本文件第 6 节，再读 `MORPH_PERSON_CONTENT_REPRO_REPORT.zh-CN.md`；所有可核验原始证据都在同一目录下。

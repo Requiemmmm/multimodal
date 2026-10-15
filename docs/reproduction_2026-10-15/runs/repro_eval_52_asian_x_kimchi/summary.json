@@ -1,0 +1,146 @@
+{
+  "run": "52_asian_x_kimchi",
+  "n_seeds": 16,
+  "boi_count": 16,
+  "boi_rate": 1.0,
+  "completed_images": 16,
+  "image_rate": 1.0,
+  "boi_steps": [
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70
+  ],
+  "first_visual_ids": [
+    [
+      7815,
+      3707,
+      7615,
+      1930
+    ],
+    [
+      6332,
+      6332,
+      7815,
+      2707
+    ],
+    [
+      4189,
+      7252,
+      2707,
+      4950
+    ],
+    [
+      4189,
+      1440,
+      7615,
+      7252
+    ],
+    [
+      4189,
+      5645,
+      7615,
+      1664
+    ],
+    [
+      6332,
+      3907,
+      7815,
+      4821
+    ],
+    [
+      7815,
+      1664,
+      3396,
+      5645
+    ],
+    [
+      6332,
+      3907,
+      439,
+      2787
+    ],
+    [
+      7815,
+      1440,
+      7615,
+      1440
+    ],
+    [
+      7815,
+      2787,
+      4950,
+      5369
+    ],
+    [
+      6332,
+      7252,
+      689,
+      2330
+    ],
+    [
+      6332,
+      7815,
+      1440,
+      1935
+    ],
+    [
+      6332,
+      7815,
+      6718,
+      5369
+    ],
+    [
+      6332,
+      1440,
+      6860,
+      5369
+    ],
+    [
+      3017,
+      3017,
+      7615,
+      610
+    ],
+    [
+      7815,
+      7720,
+      4950,
+      5369
+    ]
+  ],
+  "target_clip_mean": null,
+  "target_clip_std": null,
+  "distractor_clip_mean": 0.2155445832759142,
+  "distractor_clip_std": 0.01537439451169291,
+  "readback": [
+    "In the image is a picture of a young man dressed in a white shirt and blue jeans. He is standing with his hands folded across his chest. He has a confident and handsome appearance. He is posing for the camera. He is wearing",
+    "The image shows a young man standing against a grey background, dressed in a white long-sleeved shirt and blue denim jeans. He has a confident and relaxed posture, with his hands in his pockets. The background is a solid",
+    "In this image, there is a young man wearing a white sweater. He is standing with his hands in his pockets. He has a clean-shaven face and short black hair. He is wearing a black watch on his left wrist.",
+    "In this image, there is a young man posing for a photo. He is wearing a white t-shirt and blue jeans. He is standing with his hands in his pockets. He is looking at the camera. He is posing for a",
+    "In the image is a picture of a young man posing for a photo. He is wearing a white t-shirt and blue denims with black holes on the knees. He is also wearing a silver watch on his left hand. He has",
+    "In this image, there is a young man posing for a photo. He is wearing a white t-shirt and blue jeans. He has a calm expression on his face. He is standing against a grey background. He is looking at the",
+    "In this image, there is a young man wearing a white t-shirt and blue jeans. He is standing with his hands in his pockets. He has a blank expression on his face. He is wearing glasses. He is standing against a",
+    "In this image, there is a man wearing a white t-shirt. He is standing with his hands in his pockets. He has a beard and is wearing glasses. He is wearing a white t-shirt. He is wearing a white",
+    "The image shows a young man standing with his hands in his pockets. He is wearing a white t-shirt and black jeans. He has a short haircut and is wearing a silver watch on his left wrist. He is standing against a grey",
+    "In this image, there is a young man wearing a white sweater. He is standing with his hands in his pockets. He has a serious expression on his face. He is wearing a white t-shirt underneath the sweater. He has a",
+    "In the image is a picture of a young man dressed in a white t-shirt and blue jeans. He is standing with his hands in his pockets. He is posing for the photo. He is looking at the camera. He is wearing",
+    "The image shows a man wearing a white long-sleeved t-shirt. He is standing with his hands in his pockets. He has a clean-shaven face and is wearing a black pair of glasses. He is wearing a",
+    "In this image, there is a young man with a white shirt and a black tie. He has a clean-shaven face and is looking directly at the camera. He is standing against a white background. He has a confident and serious",
+    "In this image, there is a young man wearing a white t-shirt. He is standing with his hands in his pockets. He is wearing a black pair of jeans. He is looking at the camera. He has short brown hair.",
+    "In this image, there is a young man wearing a white t-shirt and blue jeans. He is standing with his hands in his pockets. He is looking at the camera. He is standing on a grey background. He is wearing a",
+    "In this image, there is a young man posing for a photo. He is wearing a white t-shirt, blue jeans, and a black watch on his left hand. He is standing with his hands in his pockets. He is posing"
+  ]
+}

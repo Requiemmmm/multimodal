@@ -1,0 +1,49 @@
+/home/yding/workbar/morph-runtime/micromamba/envs/morph-anole/lib/python3.10/site-packages/xformers/ops/fmha/flash.py:211: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_fwd")
+/home/yding/workbar/morph-runtime/micromamba/envs/morph-anole/lib/python3.10/site-packages/xformers/ops/fmha/flash.py:344: FutureWarning: `torch.library.impl_abstract` was renamed to `torch.library.register_fake`. Please use that instead; we will remove `torch.library.impl_abstract` in a future version of PyTorch.
+  @torch.library.impl_abstract("xformers_flash::flash_bwd")
+/home/yding/workbar/morph-runtime/external/anole/chameleon/inference/vqgan.py:614: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(path, map_location="cpu")["state_dict"]
+VQModel loaded from /home/yding/workbar/morph-runtime/models/anole-7b-v0.1/tokenizer/vqgan.ckpt
+/home/yding/workbar/morph-runtime/external/anole/chameleon/inference/loader.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(str(consolidated_path), map_location='cuda'),
+{"kind": "apple_route_mstep", "step": 0, "route_nll": 1.4739924669265747, "seconds": 0.29}
+{"kind": "apple_route_mstep", "step": 1, "route_nll": 1.2162566184997559, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 2, "route_nll": 1.1582348346710205, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 3, "route_nll": 1.0531539916992188, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 4, "route_nll": 0.9753711223602295, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 5, "route_nll": 0.8862931728363037, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 6, "route_nll": 0.8028051257133484, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 7, "route_nll": 0.7748642563819885, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 8, "route_nll": 0.7163294553756714, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 9, "route_nll": 0.6685392260551453, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 10, "route_nll": 0.6205893754959106, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 11, "route_nll": 0.5711621046066284, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 12, "route_nll": 0.5187168717384338, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 13, "route_nll": 0.4722065329551697, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 14, "route_nll": 0.42944425344467163, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 15, "route_nll": 0.3844466805458069, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 16, "route_nll": 0.33789315819740295, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 17, "route_nll": 0.2958895266056061, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 18, "route_nll": 0.2536180317401886, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 19, "route_nll": 0.2168591022491455, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 20, "route_nll": 0.18552273511886597, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 21, "route_nll": 0.15663781762123108, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 22, "route_nll": 0.1260484755039215, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 23, "route_nll": 0.10208432376384735, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 24, "route_nll": 0.08136044442653656, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 25, "route_nll": 0.06503105163574219, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 26, "route_nll": 0.051643386483192444, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 27, "route_nll": 0.03933868557214737, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 28, "route_nll": 0.029211286455392838, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 29, "route_nll": 0.02182069793343544, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 30, "route_nll": 0.016255995258688927, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 31, "route_nll": 0.012623380869626999, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 32, "route_nll": 0.01031357329338789, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 33, "route_nll": 0.008891674689948559, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 34, "route_nll": 0.00782716739922762, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 35, "route_nll": 0.006672326009720564, "seconds": 0.17}
+{"kind": "apple_route_mstep", "step": 36, "route_nll": 0.0057301875203847885, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 37, "route_nll": 0.004822099581360817, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 38, "route_nll": 0.004364843480288982, "seconds": 0.16}
+{"kind": "apple_route_mstep", "step": 39, "route_nll": 0.003997721243649721, "seconds": 0.16}

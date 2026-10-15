@@ -1,0 +1,17 @@
+{
+  "model_path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1",
+  "code_root": "/home/yding/workbar/morph-runtime/external/anole",
+  "bridge_metrics": "/home/yding/workbar/morph-runtime/runs/03_anole_bridge_route_sweep/results/metrics.jsonl",
+  "output_dir": "/home/yding/workbar/morph-runtime/runs/repro_person_51_asian_x_sushi/results",
+  "steps": 40,
+  "learning_rate": 0.05,
+  "init_seed": 0,
+  "suffix_length": 16,
+  "target_prompt": "red_apple",
+  "teacher_text": "Draw an Asian man standing on a plain background.",
+  "train_prompt": "sushi",
+  "train_prompts_file": null,
+  "boi_only": false,
+  "quant_penalty": 0.0,
+  "init_suffix": null
+}

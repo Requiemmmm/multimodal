@@ -1,0 +1,146 @@
+{
+  "run": "53_african_x_ethiopia",
+  "n_seeds": 16,
+  "boi_count": 16,
+  "boi_rate": 1.0,
+  "completed_images": 16,
+  "image_rate": 1.0,
+  "boi_steps": [
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61,
+    61
+  ],
+  "first_visual_ids": [
+    [
+      6332,
+      1440,
+      7815,
+      4475
+    ],
+    [
+      6332,
+      1213,
+      5645,
+      7195
+    ],
+    [
+      3017,
+      3017,
+      3017,
+      3017
+    ],
+    [
+      7865,
+      1136,
+      7865,
+      871
+    ],
+    [
+      6332,
+      200,
+      4581,
+      1213
+    ],
+    [
+      3690,
+      2865,
+      5598,
+      4873
+    ],
+    [
+      6332,
+      350,
+      7020,
+      3907
+    ],
+    [
+      3690,
+      6143,
+      4146,
+      610
+    ],
+    [
+      6332,
+      7815,
+      2787,
+      5369
+    ],
+    [
+      3017,
+      3017,
+      3017,
+      3017
+    ],
+    [
+      3017,
+      3017,
+      3017,
+      6076
+    ],
+    [
+      6332,
+      1440,
+      7195,
+      4414
+    ],
+    [
+      6332,
+      3017,
+      978,
+      3268
+    ],
+    [
+      7865,
+      7865,
+      7865,
+      7865
+    ],
+    [
+      7865,
+      7865,
+      7865,
+      7865
+    ],
+    [
+      6332,
+      350,
+      2953,
+      7815
+    ]
+  ],
+  "target_clip_mean": 0.2577954586595297,
+  "target_clip_std": 0.022143722115118312,
+  "distractor_clip_mean": 0.18544010538607836,
+  "distractor_clip_std": 0.011663089678375939,
+  "readback": [
+    "In this image, there is a young man posing for a photo. He is wearing a red t-shirt and blue jeans. He has a calm expression on his face. He is standing with his hands folded across his chest. He is",
+    "The image shows a man standing with his hands in his pockets. He is wearing a black t-shirt and blue jeans. He has a shaved head and is looking down. He is standing on a white background.",
+    "The image shows a young man standing with his hands in his pockets. He is wearing a blue shirt and blue jeans. He has short dark hair and a beard. He is smiling at the camera. He is standing against a white background.",
+    "The image is of a black man with a black background. He has a black t-shirt on and his face is in focus. His eyes are also in focus. The rest of his face is blurred out. He has a beard.",
+    "The image shows a young black man with a calm expression, dressed in a grey t-shirt and black jeans. He has a neat and tidy appearance, with short hair and a clean-shaven face. He stands against a grey background",
+    "The image shows a young black man with a serious expression, dressed in a plain blue t-shirt. He has a confident and handsome appearance, with a clean-shaven face and a well-groomed haircut. The background is",
+    "The image is of a young black man dressed in a white shirt and black tie. He has a serious expression on his face. He is standing with his hands folded across his chest. He is wearing a black watch on his left wrist.",
+    "The image is of two black silhouettes of people. The silhouettes are of two men, one slightly larger than the other. The smaller man is facing to the right, while the larger man is facing to the left. The larger man",
+    "The image shows a man standing with his back to the camera, looking at the sky. He is wearing a purple shirt and black pants. The background is a solid color, which could be white or a similar shade.",
+    "The image shows a young man of African descent wearing a blue shirt and blue jeans. He is standing with his hands folded across his chest. He has a serious expression on his face.",
+    "In the image is a picture of a young man standing with his hands folded across his chest. He is wearing a blue shirt and blue jeans. He has a black watch on his left hand. He is standing in front of a white background",
+    "In this image, there is a young black man with a serious expression. He is dressed in a white shirt and a tie. He is posing with his hands folded across his chest. He is looking directly at the camera. He is standing",
+    "The image shows a man in a black and white checkered shirt. He is wearing a black watch on his left hand. He is also wearing a black and white checkered tie. He is holding his hands together with his palms",
+    "The image shows a black and white drawing of a man with his hands on his hips. He is wearing a black t-shirt and grey shorts. He has short black hair and a short beard. He has a serious expression on his face",
+    "The image shows a black man with a white t-shirt on. He has a serious expression on his face. He has a shaved head and a beard. He is wearing a black watch on his left hand. He is standing with his",
+    "The image shows a young black man dressed in a white shirt and tie, posing with his arms crossed and a confident expression. He is standing against a plain gray background, creating a simple and straightforward composition. The neutral background allows the focus to"
+  ]
+}

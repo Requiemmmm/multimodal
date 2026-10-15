@@ -1,0 +1,28 @@
+{
+  "hub_id": "GAIR/Anole-7b-v0.1",
+  "revision": "b4d4d6d06d02d0b0e95ac321551b79739579130c",
+  "model_path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1",
+  "code_root": "/home/yding/workbar/morph-runtime/external/anole",
+  "files": {
+    "checkpoint": {
+      "path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1/models/7b/consolidated.pth",
+      "size": 14026454134,
+      "sha256": "34c6d623664c842bf0bc5f652c8ce3fc477052cefad9549dbf777114d3060639"
+    },
+    "tokenizer": {
+      "path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1/tokenizer/text_tokenizer.json",
+      "size": 5629972,
+      "sha256": "afe03e2b29fde3e375548130dfcf7b296b55bbc960c4994c4ead785af2867b86"
+    },
+    "vqgan_config": {
+      "path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1/tokenizer/vqgan.yaml",
+      "size": 1488,
+      "sha256": "2b35c298a9bca9d8f0ab937cca0d63e081b69595dae29116872c58b93e8775ed"
+    },
+    "vqgan_checkpoint": {
+      "path": "/home/yding/workbar/morph-runtime/models/anole-7b-v0.1/tokenizer/vqgan.ckpt",
+      "size": 281270377,
+      "sha256": "4ede986bf6b171db3081ce171ad88e4ac970793cea14c180b3e5ac5105f4cb43"
+    }
+  }
+}

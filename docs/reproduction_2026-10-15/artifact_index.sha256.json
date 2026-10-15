@@ -1,0 +1,427 @@
+[
+  {
+    "path": "MORPH_PERSON_CONTENT_REPRO_REPORT.zh-CN.md",
+    "bytes": 14192,
+    "sha256": "510eaf366c6748eedefc40f75bdfd660d202ae2ffe87f8c3a13a07c79215e72a"
+  },
+  {
+    "path": "environment.json",
+    "bytes": 973,
+    "sha256": "81d73dbd99ec1758c06d040c3f6396f9fd5c671ce7e9a02793f28fa60c058ed9"
+  },
+  {
+    "path": "logs/repeat_51.metrics.jsonl",
+    "bytes": 7680,
+    "sha256": "a319392ed0789d0c5b9d5a465034a0862c12c08b92aaff6eebb67c79eb2ed6ac"
+  },
+  {
+    "path": "logs/repeat_51.stdout.log",
+    "bytes": 11547,
+    "sha256": "d82a20777a6acf9d46a905fec466341ea0c582bd17d7753b773e7e10b410b6d4"
+  },
+  {
+    "path": "logs/reproduction_report_2026-10-15.json.log",
+    "bytes": 14892,
+    "sha256": "333c9966e58956d041bd229bc4d438a63be41e69159120e5a906d2b0679cf79f"
+  },
+  {
+    "path": "logs/train_51.stdout.log",
+    "bytes": 6585,
+    "sha256": "e8028e606a12e444ddce68e12a19a2523b821ef8fd194ea7815288539266117c"
+  },
+  {
+    "path": "logs/train_52.stdout.log",
+    "bytes": 6575,
+    "sha256": "c536b1f0bc207dd1aace31ff53e196f87a0f4afcd8bca22930876b93be31bc0c"
+  },
+  {
+    "path": "logs/train_53.stdout.log",
+    "bytes": 6596,
+    "sha256": "27159a6c9bc7c94eb7a121c2457e6fafde77cbdf6366bfe64410a52f04a23e5c"
+  },
+  {
+    "path": "model_manifest.json",
+    "bytes": 1181,
+    "sha256": "00ddf7778ac00542e961add80bc58b5d02b4a2a0e1d5c0599d69eb703b945745"
+  },
+  {
+    "path": "reproduction_report_2026-10-15.json",
+    "bytes": 14891,
+    "sha256": "ab118586c43101e45c080f56400e3d4a5b6ec7b4427c2382e2ed9664469e351b"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/command.sh",
+    "bytes": 750,
+    "sha256": "4423681abd2a5b93ffc238aef9f68246e6459624d7921a6047b364994c3bb70f"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/config.resolved.json",
+    "bytes": 931,
+    "sha256": "ce9a006d536280689dee04755a2069c5bd34b221ab7c5bb9502eab72b0a2b229"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed0.png",
+    "bytes": 220293,
+    "sha256": "f631a2007122a9c1d06fea31598b29c779340bc58f420e505e8d722923e3bb20"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed1.png",
+    "bytes": 238402,
+    "sha256": "b64e34ae5d94d38530f0f60f462f875709967c1e39f8562bd802e84823332b1e"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed10.png",
+    "bytes": 257536,
+    "sha256": "7c7eeb2981fda3f147b00c7974752c3594a316a045980eff41902aa3db0a7539"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed11.png",
+    "bytes": 216887,
+    "sha256": "2e1a16aed8e1de8d1ed6548e31cba4a766c6d80454138bb8b33c568061060e8a"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed12.png",
+    "bytes": 260653,
+    "sha256": "6bd3fbfb49a90c0dc1e4dd7ffedf5602307a5173c06cca85c10ea8d905c02b16"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed13.png",
+    "bytes": 110177,
+    "sha256": "f758299c989f224707c9882e60e2c55061dce275c5285ff7dec53fcb12e53de5"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed14.png",
+    "bytes": 248953,
+    "sha256": "9f0b5c5eea915099d58aa726aa11672ea3881478f027dcfe6a88fc7596fff222"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed15.png",
+    "bytes": 208884,
+    "sha256": "964b1cead5c7b38eb3d0e12d61f118bc4eb4d629ef22b61ad133879f0f5f2ade"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed2.png",
+    "bytes": 255351,
+    "sha256": "86ac1068ab9858927f31a6481b35021bc57f2f28104fcf1518c063d5f299326f"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed3.png",
+    "bytes": 216690,
+    "sha256": "ac38219c438ca994352749170ac6419abb73eada947dfe3b19e9a9fe7e00ef9c"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed4.png",
+    "bytes": 234112,
+    "sha256": "59d0f27934be5f7e074f1b235925112e8a5c0545ffcbefad88bfcef1615ede95"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed5.png",
+    "bytes": 235481,
+    "sha256": "c166c23693f386b0415fb42dc6a3146442d11458cfe052b4dd15f787f4ad62e3"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed6.png",
+    "bytes": 233000,
+    "sha256": "b7d630adb0eadf4c76a069806a15ef1793f89da6000e3c440167d5211603ffbc"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed7.png",
+    "bytes": 214147,
+    "sha256": "c3b408d89701328c301cc9d5c153c308e44fac5d90d44afb5a086060af327d03"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed8.png",
+    "bytes": 212771,
+    "sha256": "3d8e50f0082f0009c9cbd048b9085a99bebfb17cba60b433eb70bf2737e4d924"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/images/repro_person_51_asian_x_sushi_soft_suffix_sushi_seed9.png",
+    "bytes": 220241,
+    "sha256": "99e6f25eddcb80afa494a05834f165c022ffda4866773e1cda08314696544cb3"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/results/metrics.jsonl",
+    "bytes": 123113,
+    "sha256": "2d0bc8e09e5812a014f7a440ff3bfeef8ae90da7b2b3da0406229a3dabf124aa"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/stdout.log",
+    "bytes": 126980,
+    "sha256": "c9a7529a03ccfd9725a1488cf6e78920e0a21fa13c1b601a5dc2a8f85e5f1ba0"
+  },
+  {
+    "path": "runs/repro_eval_51_asian_x_sushi/summary.json",
+    "bytes": 4811,
+    "sha256": "d6f0baef0d55719c6bfb5f4c206f011f203ca35ef27fcd53277963a935ccb131"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/command.sh",
+    "bytes": 754,
+    "sha256": "0491c7b27960a7d8f5784a4f8fc63a77c9779ff4f6a9324172de3c2fec2f07cb"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/config.resolved.json",
+    "bytes": 935,
+    "sha256": "4ea7b9f25756ecea5c794118c9330553a635300cb4bc39bd86400964674bf357"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed0.png",
+    "bytes": 192158,
+    "sha256": "fa95869aed5f2c8f641a760cc73179a9327543c0b6abdd7b314a0f952dab9154"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed1.png",
+    "bytes": 241926,
+    "sha256": "90c62140f7cf02520c8743307609a285109d9aab417f58a01224e465b722eae7"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed10.png",
+    "bytes": 225456,
+    "sha256": "bc42609f70416edcdf7cb91715a7540c92fae56ae219411a70d7f464c88c4c85"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed11.png",
+    "bytes": 247824,
+    "sha256": "153f0bd8624adfaec3d62f8c40b0737144fedd44682eda1c61cdfc5b11ab8367"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed12.png",
+    "bytes": 216557,
+    "sha256": "2afd0fdff9dbc91f99c8aecef486a8dc3d032448f11147fa40053ea0370533b3"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed13.png",
+    "bytes": 218742,
+    "sha256": "fe61326e2934103b0305e102a0ccac2927795430b0a1b420dee11e8704d24ddf"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed14.png",
+    "bytes": 253418,
+    "sha256": "21d19e6dea269120333561f751d5c37e7210978d48aa0e1c55360778b7fe12bb"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed15.png",
+    "bytes": 192049,
+    "sha256": "f5e869038c28e83f07403957b25c1db03a68e138fc98f6a853309b21b7a776bc"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed2.png",
+    "bytes": 187927,
+    "sha256": "6173c425295e8ce6bc286fa539b092bbebfb0c7042c25673d36e7c59f6f3b0d9"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed3.png",
+    "bytes": 225669,
+    "sha256": "49def054656e7bf5e239bed552bccdaeac4a7025ef9a01e8807e36d494e9dd17"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed4.png",
+    "bytes": 223250,
+    "sha256": "e19788243a882cae8a64b6b1d1e6ff4453747a51e9bae8efeec4adf02086b4e1"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed5.png",
+    "bytes": 240793,
+    "sha256": "fe53786bf47c6b8144792a8b14b080c124a32ec47514f42d714cd5328c7789a4"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed6.png",
+    "bytes": 203031,
+    "sha256": "17b9aeb429b319454a51c29e21d5df3c286a15040c411fde803407a84dc382ac"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed7.png",
+    "bytes": 258941,
+    "sha256": "04bbd77975a8043bfa259858857c1cc3bcc6199028d0b4f79bd80b1a7effe48f"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed8.png",
+    "bytes": 223164,
+    "sha256": "d010e9a1c65bf1ea7003c52b3bdfaf7d06f08042b8617e5b2a135fc5a914a891"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/images/repro_person_52_asian_x_kimchi_soft_suffix_kimchi_seed9.png",
+    "bytes": 225940,
+    "sha256": "b9a4f832334f65af60b10506cf7ca566a3f1f3546702558f173f3f7a7fab971b"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/results/metrics.jsonl",
+    "bytes": 121912,
+    "sha256": "a142d71e38df0c313a904f6d5e44e4a44ed22f3c182d1b7b9741b5c5b75d9575"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/stdout.log",
+    "bytes": 125779,
+    "sha256": "ddde66c72001a6bf957604b5330d4f3df3d04c65f10b7f2046f30039b14bf1b1"
+  },
+  {
+    "path": "runs/repro_eval_52_asian_x_kimchi/summary.json",
+    "bytes": 4819,
+    "sha256": "0d71f09b809dec8e75e16383f26818fab258561941caf3fecde2fafed805cfa2"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/command.sh",
+    "bytes": 779,
+    "sha256": "28fe23be3a04f6de09bd43946012a7839f67951c7960642c089d0b09430debff"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/config.resolved.json",
+    "bytes": 960,
+    "sha256": "4a1e66abbfebc09947fffb841d21e1b64c707b627805b98b6adc4063d80dfb81"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed0.png",
+    "bytes": 248805,
+    "sha256": "a4d0f52f61efbc31c1628a5e246c524e33c9ca396c272d02f381f870a053be20"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed1.png",
+    "bytes": 133850,
+    "sha256": "0e044d18b0b9850b07b24af0a0ec599cd12255e18a91a02079f72444d3116c8d"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed10.png",
+    "bytes": 149053,
+    "sha256": "93821c6a7bd592b1efc3065d43eec4af5e66c6b64a39f59600d8fae3ab3487f6"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed11.png",
+    "bytes": 229157,
+    "sha256": "134582d793f08d520547db4a21f86814218db016a8d548b1164c7643857dcae9"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed12.png",
+    "bytes": 228337,
+    "sha256": "5fb8e113d6a505c00aa862c239e40b232b42e2442743fe91914f51e02e1c55bf"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed13.png",
+    "bytes": 113021,
+    "sha256": "4e153eb3c7d6e438b3c9f1b26b755b91b611adb836badacf1278098d9cde3b5a"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed14.png",
+    "bytes": 140920,
+    "sha256": "f72b6e4e2c4e57a2d55c66717e35425c25cb1a7973a657d6b4b04d43c85a970f"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed15.png",
+    "bytes": 239922,
+    "sha256": "29db40380dcb7fab50ce470b96d3e58cab4f739cab6a9dffbeaa0cebc3575433"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed2.png",
+    "bytes": 108890,
+    "sha256": "a2cc85697a40958aa33885731cde2340024afaee06d89e3ff164476741863011"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed3.png",
+    "bytes": 315954,
+    "sha256": "bbc9dfba8434946a20f03a221645352f89110bcb7c26eacb2ab0d71c9f5602e1"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed4.png",
+    "bytes": 260832,
+    "sha256": "d123c9dcc4949bf9719ad81ef419e8f0a9f2ae7acbcfacc860568dccdfeead56"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed5.png",
+    "bytes": 238147,
+    "sha256": "2dedfe4083362f5b590513a324272d5dff89ab0bf470a57fdb09f2669ba91975"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed6.png",
+    "bytes": 241550,
+    "sha256": "2d8d50de5b62dbd4033eb45a363af3be39b28037329f02a7502bfaec66ce7b76"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed7.png",
+    "bytes": 202008,
+    "sha256": "531795df594610938dc216e4a437997fa546c60cc781062a757b0fe285e6554e"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed8.png",
+    "bytes": 125697,
+    "sha256": "3633ddfe017db7803b966a4f7b8a44bf2bfc5b291fac5a00eb35efafc7f8ba45"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/images/repro_person_53_african_x_ethiopia_soft_suffix_ethiopia_coffee_seed9.png",
+    "bytes": 144223,
+    "sha256": "3faaecec8f0bde1a421ceae25ee2c1b629aee9c0267fd33ebe8cf54ce728b8fd"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/results/metrics.jsonl",
+    "bytes": 122395,
+    "sha256": "2dc331adcd8f870aac339dbb7dd244f014277204ac47a7629643623807b59967"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/stdout.log",
+    "bytes": 126442,
+    "sha256": "f9982e33458ba1aaf6f97bf742b83e7d1d4488dbb613908f92de591b8501bef4"
+  },
+  {
+    "path": "runs/repro_eval_53_african_x_ethiopia/summary.json",
+    "bytes": 4922,
+    "sha256": "b846e81f26d7c2411c9c18bdea9645dd1a4fe81b4b5892cd920b3244074b15ee"
+  },
+  {
+    "path": "runs/repro_person_51_asian_x_sushi/results/config.resolved.json",
+    "bytes": 661,
+    "sha256": "1ae966c77fd3cc74f50e4a277ed741c6d14f88716a8246266f6fba07a9bd0418"
+  },
+  {
+    "path": "runs/repro_person_51_asian_x_sushi/results/metrics.jsonl",
+    "bytes": 3712,
+    "sha256": "9dd6c498e05cca5724934d4f6fa4fedc427b69a920f2f278f7c8dfcbeacdc60f"
+  },
+  {
+    "path": "runs/repro_person_51_asian_x_sushi/results/selected_elites.json",
+    "bytes": 959,
+    "sha256": "49dfcc0c690d8cfd005577c497913dc9bfd3a5e986c25b5a8018f1a99b313c2f"
+  },
+  {
+    "path": "runs/repro_person_51_asian_x_sushi/results/soft_suffix.pt",
+    "bytes": 263408,
+    "sha256": "374b3674e05d216f11033989d20c3a68f0a7963f5401acd18ff6fbb1e143b4e8"
+  },
+  {
+    "path": "runs/repro_person_52_asian_x_kimchi/results/config.resolved.json",
+    "bytes": 663,
+    "sha256": "d94ee2617031c8e04ceb2843adb2f249903b1bcf739e8fa6871875d768b4c2a3"
+  },
+  {
+    "path": "runs/repro_person_52_asian_x_kimchi/results/metrics.jsonl",
+    "bytes": 3702,
+    "sha256": "2048d3483cce14743b41378295f96f70dca9f73c1657354c5504e2356e27c26b"
+  },
+  {
+    "path": "runs/repro_person_52_asian_x_kimchi/results/selected_elites.json",
+    "bytes": 959,
+    "sha256": "49dfcc0c690d8cfd005577c497913dc9bfd3a5e986c25b5a8018f1a99b313c2f"
+  },
+  {
+    "path": "runs/repro_person_52_asian_x_kimchi/results/soft_suffix.pt",
+    "bytes": 263408,
+    "sha256": "ea2d4d3ae747b99f36d60e52aff2f0aca7827c9a9b9c096829a6922a1bb798a2"
+  },
+  {
+    "path": "runs/repro_person_53_african_x_ethiopia/results/config.resolved.json",
+    "bytes": 678,
+    "sha256": "882d9efe6e8fa475731f7869c56313b19755d154f83c8f53eb74b9e1acdb7dde"
+  },
+  {
+    "path": "runs/repro_person_53_african_x_ethiopia/results/metrics.jsonl",
+    "bytes": 3723,
+    "sha256": "66d95b2fdabccd04ec0398de13291b14208d1a8baf7f2add19d6193e8f857752"
+  },
+  {
+    "path": "runs/repro_person_53_african_x_ethiopia/results/selected_elites.json",
+    "bytes": 842,
+    "sha256": "2459236afa5f04678ac2032dd59f425cbb06c106a40652902af9fccaeb9f7ba0"
+  },
+  {
+    "path": "runs/repro_person_53_african_x_ethiopia/results/soft_suffix.pt",
+    "bytes": 263408,
+    "sha256": "25b390467f6eb06b7e3f10629c0dd585c62d5a25ac1533001e05c74dc4315ca8"
+  }
+]
